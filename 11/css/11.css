@@ -1,0 +1,88 @@
+.type-11 .modals img {
+  width: 100%;
+}
+.type-11 .modals .price {
+  color: #B9820F;
+}
+.type-11 .modals span {
+  color: #b1abab;
+  padding-bottom: 10px;
+}
+.type-11 .modals .quantity {
+  display: inline-block;
+}
+.type-11 .modals .quantity .input-text.qty {
+  width: 48px;
+  height: 38px;
+  padding: 0 5px;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid #efefef;
+}
+.type-11 .modals .quantity .buttons_added {
+  text-align: left;
+  position: relative;
+  white-space: nowrap;
+  vertical-align: top;
+}
+.type-11 .modals .quantity .buttons_added input {
+  display: inline-block;
+  margin: 0;
+  vertical-align: top;
+  box-shadow: none;
+}
+.type-11 .modals .quantity .buttons_added .minus {
+  border-right: 0;
+}
+.type-11 .modals .quantity .buttons_added .plus {
+  border-left: 0;
+}
+.type-11 .modals .quantity.buttons_added .minus,
+.type-11 .modals .quantity.buttons_added .plus {
+  padding: 7px 10px;
+  height: 38px;
+  background-color: #F4F4F4;
+  border: 1px solid #efefef;
+  cursor: pointer;
+}
+.type-11 .modals .quantity.buttons_added .minus:hover,
+.type-11 .modals .quantity.buttons_added .plus:hover {
+  background: #eeeeee;
+}
+.type-11 .modals .quantity input::-webkit-outer-spin-button,
+.type-11 .modals .quantity input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  margin: 0;
+}
+.type-11 .modals .quantity.buttons_added .minus:focus,
+.type-11 .modals .quantity.buttons_added .plus:focus {
+  outline: none;
+}
+.type-11 .modals .addCart {
+  display: inline;
+}
+.type-11 .modals .addCart .btn-cart {
+  background: #000000;
+  color: #ffffff;
+  border: none;
+  padding: 7px 7px;
+  margin-left: 23px;
+}
+.type-11 .modals .addCart .btn-cart:hover {
+  background: #a19e9e;
+}
+.type-11 .modals .category {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.type-11 .modals .share a {
+  margin: 0 10px;
+  color: #b1abab;
+}
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 700px;
+    margin: 1.75rem auto;
+  }
+}

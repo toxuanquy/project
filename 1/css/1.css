@@ -1,0 +1,125 @@
+.type-1 .top-header {
+  background: #1daaa3;
+  width: 100%;
+  font-size: 14px;
+  letter-spacing: .3px;
+  position: relative;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+.type-1 .top-header .nav-link {
+  color: #f8f8f8;
+  position: relative;
+}
+.type-1 .top-header .nav-link:hover {
+  color: #ffffff;
+}
+.type-1 .top-header ul li a:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 0;
+  height: 1px;
+  display: block;
+  background-color: gray;
+  transition: width .2s ease;
+}
+.type-1 .top-header a:hover:after {
+  width: 100%;
+}
+.type-1 .menu .img-logo {
+  max-width: 196px;
+}
+.type-1 .menu .top-right form {
+  position: relative;
+  top: 50%;
+  left: 0;
+  transition: all 1s;
+  width: 50px;
+  height: 50px;
+  background: #fff f;
+  box-sizing: border-box;
+  border-radius: 25px;
+  border: 4px solid #fff f;
+  padding: 5px;
+}
+.type-1 .menu .top-right form input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 42.5px;
+  line-height: 30px;
+  outline: 0;
+  border: 0;
+  display: none;
+  font-size: 1em;
+  border-radius: 20px;
+  padding: 0 10px;
+}
+.type-1 .menu .top-right form .search-button {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 42.5px;
+  height: 42.5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  color: #c7b6b6;
+  text-align: center;
+  font-size: 1.2em;
+  transition: all 1s;
+}
+.type-1 .menu .top-right form:hover {
+  width: 200px;
+  cursor: pointer;
+}
+.type-1 .menu .top-right form:hover input {
+  display: block;
+}
+.type-1 .menu .top-right form:hover .search-button {
+  background: #747379;
+  color: ;
+}
+.type-1 .menu .top-right .nav-items {
+  position: relative;
+}
+.type-1 .menu .top-right .nav-items a:after {
+  content: '';
+  left: 0;
+  right: 0;
+  width: 1px;
+  height: 1px;
+  display: block;
+  background-color: #000000;
+  transition: width .2s ease;
+}
+.type-1 .menu .top-right a:hover:after {
+  width: 100%;
+}
+.type-1 .menu .top-right .nav-link {
+  font-style: italic;
+  border-right: 2px solid #ebe1e1;
+  padding-right: 30px;
+}
+.type-1 .menu .top-right .item-cart {
+  text-align: center;
+  margin-left: 10px;
+}
+.type-1 .menu .top-right .item-cart .cart-button {
+  line-height: 45px;
+  color: #a8b0b0;
+  font-size: 1.4em;
+}
+@media screen and (max-width: 992px) {
+  .menu #collapsibleNavId {
+    position: absolute;
+    background: #F8F9FA;
+    z-index: 1;
+    top: 3.5em;
+    left: 0;
+    width: 100%;
+    padding-left: 20px;
+  }
+}
