@@ -1,0 +1,61 @@
+.type-9 {
+  margin-top: 80px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+.type-9 .title-custom {
+  text-align: left;
+}
+.type-9 .title-custom b {
+  color: #000;
+  font-size: 28px;
+  font-family: "Times New Roman", Times, serif;
+}
+.type-9 .title-custom .line-right {
+  border-bottom: 2px solid #b88009;
+  width: 30px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.type-9 .product-custom ul {
+  padding: 0;
+}
+.type-9 .product-custom ul li {
+  font-size: 12px;
+  text-decoration: none;
+  list-style: none;
+  overflow: hidden;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(124,124,124,0.15);
+}
+.type-9 .product-custom ul li .price {
+  font-size: 14px;
+  color: #AFAFAF;
+}
+.type-9 .product-custom ul li img {
+  float: left;
+  margin-right: 12px;
+  max-width: 60px;
+  min-width: 60px;
+}
+.type-9 .product-custom ul li a {
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 8px;
+}
+.type-9 .product-custom ul li a .product-title {
+  color: #000;
+}
+.type-9 .product-custom ul .post-content {
+  font-size: 14px;
+}
+.type-9 .product-custom ul .post-content a {
+  text-transform: none;
+  display: inline;
+  color: #000;
+}
+.type-9 .product-custom ul .post-content span {
+  margin-top: 10px;
+  font-size: 10px;
+  display: block;
+}
