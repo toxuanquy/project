@@ -79,7 +79,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </li>
                 </ul>
                 <ul class="navbar-nav md-auto mt-2 mt-lg-0">
-                    <a href="#" class="brand" ><img src="./images/logo-basel.svg" alt=""
+                    <a href="#" class="brand"><img src="./images/logo-bg.png" alt=""
                             class="img-responsive img-logo"></a>
                 </ul>
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0 top-right">
@@ -94,12 +94,53 @@ $url_path = str_replace('\\', '/', $url_path);
                         <a href=""><i class="fa fa-search search-button"></i></a>
                     </li> -->
                     <li class="item-cart">
-                        <a href=""><i class="fa fa-shopping-cart cart-button"></i></i></a>
+                        <a href="#" id="opennav"><i class="fa fa-shopping-cart cart-button"></i></i></a>
                     </li>
                 </ul>
             </div>
         </nav>
     </div>
     <!--cart-->
-    
+    <div id="mySidenav" class="sidenav">
+        <div class="nav-heading">
+            <h3 class="nav-title">Shopping cart</h3>
+            <!-- <a href="#" class="closebtn">CLOSE<span>&times;</span></a> -->
+            <a href="#" class="closebtn">CLOSE</a>
+            <div class="btn-close-bar">
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+        <!-- item -->
+        <div class="product-custom">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="images/1.jpg">
+                        <span class="product-title">Ymolestie Condim</span>
+                    </a>
+                    <span class="price">£749.00</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/2.jpg">
+                        <span class="product-title">Ynisi Condimentum</span>
+                    </a>
+                    <span class="price">£579.00</span>
+                </li>
+                
+            </ul>
+        </div>
+        <div class="sum-cart">
+            <div class="total">
+                <h4><b>SUBTOTAL:</b></h4>
+                <span>
+                    <h4><b>£1,737.00</b></h4>
+                </span>
+            </div>
+            <button class="btn-custom">VIEW CART</button>
+            <button class="btn-custom">CHECKOUT</button>
+        </div>
+    </div>
+    <div class="close-side"></div>
 </div>
