@@ -58,11 +58,12 @@
   border-color: rgba(255,255,255,0.4);
   background-color: transparent;
   color: #ffffff;
-  height: 182px;
+  height: 211px;
 }
 .type-22 .contact-us .col-md-6 .contact-right .form-contact .send {
   margin: 15px;
   margin-top: 20px;
+  margin-left: 0;
 }
 .type-22 .contact-us .col-md-6 .contact-right .form-contact .send input {
   padding: 10px 10px;
@@ -79,9 +80,9 @@
   width: 30px;
   height: 30px;
   text-align: center;
-  padding-top: 5px;
-  margin-left: -25px;
-  margin-right: 35px;
+  padding-top: 2px;
+  margin-left: -40px;
+  margin-right: 55px;
 }
 .type-22 .contact-us .col-md-6 .contact-right .form-contact .icon-share .social-facebook {
   background-color: #365493;

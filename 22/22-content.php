@@ -14,7 +14,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="map">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7836.915227163078!2d106.7580184647422!3d10.852757018712333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752797e321f8e9%3A0xb3ff69197b10ec4f!2zVHLGsOG7nW5nIENhbyDEkOG6s25nIEPDtG5nIG5naOG7hyBUaOG7pyDEkOG7qWM!5e0!3m2!1svi!2s!4v1570668008144!5m2!1svi!2s"
-                        width="100%" height="646" frameborder="0" style="border:0;" allowfullscreen="">
+                        width="100%" height="712" frameborder="0" style="border:0;" allowfullscreen="">
                     </iframe>
                 </div>
             </div>
@@ -98,20 +98,29 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="col-md-6">
                                 <div class="form-group your-message">
                                     <label for="comment">Your Message</label>
-                                    <textarea class="form-control" rows="5" id="comment" style="heigth= 20px;"></textarea>
+                                    <textarea class="form-control" rows="5" id="comment"></textarea>
                                 </div>
                             </div>
-                            <div class="send">
-                                <input type="submit" value="SEND A MESSAGE">
-                            </div>
-                            <div class="icon-share">
-                                <ul>
-                                    <a href="#"><li class="social-facebook"><i class="fa fa-facebook"></i></li></a>
-                                    <a href="#"><li class="social-twitter"><i class="fa fa-twitter"></i></li></a>
-                                    <a href="#"><li class="social-email"><i class="fa fa-envelope"></i></li></a>
-                                    <a href="#"><li class="social-in"><i class="fa fa-linkedin"></i></li></a>
-                                </ul>
-                            </div>
+
+                        </div>
+                        <div class="send">
+                            <input type="submit" value="SEND A MESSAGE">
+                        </div>
+                        <div class="icon-share">
+                            <ul>
+                                <a href="#">
+                                    <li class="social-facebook"><i class="fa fa-facebook"></i></li>
+                                </a>
+                                <a href="#">
+                                    <li class="social-twitter"><i class="fa fa-twitter"></i></li>
+                                </a>
+                                <a href="#">
+                                    <li class="social-email"><i class="fa fa-envelope"></i></li>
+                                </a>
+                                <a href="#">
+                                    <li class="social-in"><i class="fa fa-linkedin"></i></li>
+                                </a>
+                            </ul>
                         </div>
 
 
