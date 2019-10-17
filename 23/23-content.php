@@ -14,7 +14,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Library</li>
-                    <a href="#" data-toggle="collapse" data-target="#demo" class="open-filter ml-auto">Filters</a>
+                    <a href="#" data-toggle="collapse" data-target="#demo" class="open-filter navbar-right">Filters</a>
                 </ol>
                 
             </nav>

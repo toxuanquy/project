@@ -21,7 +21,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <i class="fa fa-envelope icon"></i>
                                 <input type="email" name="EMAIL" placeholder="Your email address" required=""
                                     class="input-field">
-
                             </p>
                             <p>
                                 <input type="submit" value="Sign up" class="button-sb">

@@ -9,8 +9,9 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-1">
     <!--top header-->
-    <div class="container-build">
-        <div class="top-header">
+
+    <div class="top-header">
+        <div class="container-fluid">
             <div class="row header">
                 <div class="col-md-6">
                     <ul class="item-left">
@@ -39,66 +40,58 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
     </div>
     <!--menu-->
-    <div class="container-build menu">
-        <nav class="navbar navbar-expand-sm navbar-light bg-light ">
-            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
-                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavId">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+    <div class="menu">
+        <nav class="navbar navbar-default" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">SHOP</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES</b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">FAQS</a></li>
+                            <li><a href="#">About me</a></li>
+                        </ul>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">SHOP</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="#">Product</a>
-                            <a class="dropdown-item" href="#">Shop Style</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">BLOG</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">PAGES</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="#">FAQS</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">FEATURE</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="#">Contact us</a>
-
-                        </div>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">FEATURE</b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Contact us</a></li>
+                        </ul>
                     </li>
                 </ul>
-                <ul class="navbar-nav md-auto mt-2 mt-lg-0">
+                <ul class="nav navbar-nav ">
                     <a href="#" class="brand"><img src="./images/logo-bg.png" alt=""
-                            class="img-responsive img-logo"></a>
+                            class="img-logo"></a>
                 </ul>
-                <ul class="navbar-nav ml-auto mt-2 mt-lg-0 top-right">
-                    <li class="nav-items">
-                        <a href="#" class="nav-link">Login / Register</a>
+                <ul class="nav navbar-nav navbar-right top-right">
+                    <li><a href="#" class="nav-link">Login / Register</a></li>
+                    <li>
+                        <form action="" class="form-search">
+                            <input type="search" class="search" placeholder="Search..." ,>
+                            <i class="fa fa-search search-button"></i>
+                        </form>
                     </li>
-                    <form action="" class="form-search">
-                        <input type="search" class="search" placeholder="Search..." ,>
-                        <i class="fa fa-search search-button"></i>
-                    </form>
-                    <!-- <li class="item-search">
-                        <a href=""><i class="fa fa-search search-button"></i></a>
-                    </li> -->
                     <li class="item-cart">
                         <a href="#" id="opennav"><i class="fa fa-shopping-cart cart-button"></i></i></a>
                     </li>
                 </ul>
-            </div>
+            </div><!-- /.navbar-collapse -->
         </nav>
+
+       
+
     </div>
     <!--cart-->
     <div id="mySidenav" class="sidenav">
@@ -128,7 +121,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </a>
                     <span class="price">£579.00</span>
                 </li>
-                
+
             </ul>
         </div>
         <div class="sum-cart">
@@ -143,4 +136,78 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
     </div>
     <div class="close-side"></div>
+</div>
+<!--banner-->
+<div class="type-2">
+    <div class="banner">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="text">
+                        <h2 class="fadeInRight">This is custom styles</h2>
+                        <h1 class="fadeInLeft">Men Styles</h1>
+                        <div class="fadeInUp ">
+                            <a href="#" class="btn-more">READ MORE</a>
+                            <a href="#" class="btn-cart">ADD TO CART</a>
+                        </div>
+
+                    </div>
+                    <img src="./images/slide-7-s.png" alt="" class="img-responsive">
+                </div>
+                <div class="swiper-slide">
+                    <div class="text">
+                        <h2 class="fadeInRight">This is custom styles</h2>
+                        <h1 class="fadeInLeft">Men Styles</h1>
+                        <div class="fadeInUp ">
+                            <a href="#" class="btn-more">READ MORE</a>
+                            <a href="#" class="btn-cart">ADD TO CART</a>
+                        </div>
+                    </div>
+                    <img src="./images/slide-10-s.png" alt="" class="img-responsive">
+                </div>
+                <div class="swiper-slide">
+                    <div class="text">
+                        <h2>This is custom styles</h2>
+                        <h1>Men Styles</h1>
+                        <div class="fadeInUp ">
+                            <a href="#" class="btn-more">READ MORE</a>
+                            <a href="#" class="btn-cart">ADD TO CART</a>
+                        </div>
+                    </div>
+                    <img src="./images/slide-15-s.png" alt="" class="img-responsive">
+                </div>
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+</div>
+<!---->
+<div class="type-7">
+    <div class="wp-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h1>Get Discount</h1>
+                </div>
+                <div class="col-md-8">
+                    <form action="">
+                        <div class="form-filed">
+                            <p class="input-icon">
+                                <i class="fa fa-envelope icon"></i>
+                                <input type="email" name="EMAIL" placeholder="Your email address" required=""
+                                    class="input-field">
+                            </p>
+                            <p>
+                                <input type="submit" value="Sign up" class="button-sb">
+                            </p>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
 </div>

@@ -22,19 +22,24 @@
     <title>1</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">
+    <link href="<?php echo $url_path ?>/css/bootstrap-v3.3.7.min.css" rel="stylesheet" type="text/css" />
+	<link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">
+	<link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css" />
 	<link href="<?php echo $url_path ?>/css/1.css" rel="stylesheet" type="text/css" />
+
+	
 	<script src="<?php echo $url_path ?>/js/jquery-3.3.1.slim.min.js"></script>
 	<script src="<?php echo $url_path ?>/js/popper.min.js"></script>
-	<script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
-	<script src="<?php echo $url_path ?>/js/jquery-3.3.1.min.js"></script>
+	<script src="<?php echo $url_path ?>/js/bootstrap-v3.3.7.min.js"></script>
 	<script src="<?php echo $url_path ?>/js/script.js"></script>
+	
 
 </head>
 
 <body>
     <?php include './1-content.php'; ?>
+	<script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
+
 	
 </body>
 
