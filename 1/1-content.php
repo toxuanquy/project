@@ -9,7 +9,6 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-1">
     <!--top header-->
-
     <div class="top-header">
         <div class="container-fluid">
             <div class="row header">
@@ -40,6 +39,7 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
     </div>
     <!--menu-->
+
     <div class="menu">
         <nav class="navbar navbar-default" role="navigation">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -53,27 +53,28 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav navbar-left">
+                <ul id="rotate-customs" class="nav navbar-nav navbar-left">
                     <li><a href="#">HOME</a></li>
                     <li><a href="#">SHOP</a></li>
                     <li><a href="#">BLOG</a></li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES</b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES <div class="fa rotate"><i
+                                    class="fa fa-angle-down"></i></div></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">FAQS</a></li>
                             <li><a href="#">About me</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">FEATURE</b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">FEATURE <div class="fa rotate"><i
+                                    class="fa fa-angle-down"></i></div></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Contact us</a></li>
                         </ul>
                     </li>
                 </ul>
                 <ul class="nav navbar-nav ">
-                    <a href="#" class="brand"><img src="./images/logo-bg.png" alt=""
-                            class="img-logo"></a>
+                    <a href="#" class="brand"><img src="./images/logo-bg.png" alt="" class="img-logo"></a>
                 </ul>
                 <ul class="nav navbar-nav navbar-right top-right">
                     <li><a href="#" class="nav-link">Login / Register</a></li>
@@ -90,7 +91,7 @@ $url_path = str_replace('\\', '/', $url_path);
             </div><!-- /.navbar-collapse -->
         </nav>
 
-       
+
 
     </div>
     <!--cart-->
@@ -136,78 +137,4 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
     </div>
     <div class="close-side"></div>
-</div>
-<!--banner-->
-<div class="type-2">
-    <div class="banner">
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="text">
-                        <h2 class="fadeInRight">This is custom styles</h2>
-                        <h1 class="fadeInLeft">Men Styles</h1>
-                        <div class="fadeInUp ">
-                            <a href="#" class="btn-more">READ MORE</a>
-                            <a href="#" class="btn-cart">ADD TO CART</a>
-                        </div>
-
-                    </div>
-                    <img src="./images/slide-7-s.png" alt="" class="img-responsive">
-                </div>
-                <div class="swiper-slide">
-                    <div class="text">
-                        <h2 class="fadeInRight">This is custom styles</h2>
-                        <h1 class="fadeInLeft">Men Styles</h1>
-                        <div class="fadeInUp ">
-                            <a href="#" class="btn-more">READ MORE</a>
-                            <a href="#" class="btn-cart">ADD TO CART</a>
-                        </div>
-                    </div>
-                    <img src="./images/slide-10-s.png" alt="" class="img-responsive">
-                </div>
-                <div class="swiper-slide">
-                    <div class="text">
-                        <h2>This is custom styles</h2>
-                        <h1>Men Styles</h1>
-                        <div class="fadeInUp ">
-                            <a href="#" class="btn-more">READ MORE</a>
-                            <a href="#" class="btn-cart">ADD TO CART</a>
-                        </div>
-                    </div>
-                    <img src="./images/slide-15-s.png" alt="" class="img-responsive">
-                </div>
-            </div>
-            <!-- Add Arrows -->
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-        </div>
-    </div>
-</div>
-<!---->
-<div class="type-7">
-    <div class="wp-content">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h1>Get Discount</h1>
-                </div>
-                <div class="col-md-8">
-                    <form action="">
-                        <div class="form-filed">
-                            <p class="input-icon">
-                                <i class="fa fa-envelope icon"></i>
-                                <input type="email" name="EMAIL" placeholder="Your email address" required=""
-                                    class="input-field">
-                            </p>
-                            <p>
-                                <input type="submit" value="Sign up" class="button-sb">
-                            </p>
-                        </div>
-                    </form>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
 </div>

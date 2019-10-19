@@ -23,7 +23,6 @@ $url_path = str_replace('\\', '/', $url_path);
                             <!-- Modal Header -->
                             <div class="modal-header">
                                 <h4 class="modal-title">Giày thể thao</h4>
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
                             </div>
                             <!-- Modal body -->
                             <div class="modal-body">
